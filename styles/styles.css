@@ -1,0 +1,66 @@
+div p {
+  color: red;
+}
+/* 후손 선택자 : div 안에 있는 자식인 p에게 적용*/
+
+div > p {
+  color: red;
+}
+/* 자식 선택자 : div 안에 있는 직계 자식인 p에게 적용*/
+
+/* 클래스 선택자 */
+.fontSize {
+  font-size: 20px;
+}
+
+#a {
+  color: blue;
+}
+
+button {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+/*
+  가상 선택자  hover는 마우스가 위로 갔을 때 적용
+  :active => 버튼이 눌렸을 때 적용
+  :focus => 포커스 받으면 (선택) 적용
+*/
+button:hover {
+  background-color: blue;
+}
+
+button:active {
+  background-color: green;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #8dd94e;
+}
+
+.fontSize:focus {}
+
+input[type=checkbox] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+input:checked {
+  background-color: #8dd94e;
+}
+
+input:disabled {
+  color: gray;
+  cursor: not-allowed;
+}
