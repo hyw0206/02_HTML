@@ -1,0 +1,51 @@
+.fixed {
+  position: fixed; /* 화면에 고정 */
+  right: 50px;
+  bottom: 50px;
+
+
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.box {
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #e74c3c;
+}
+.sticky {
+  position: sticky; /* 스크롤이 내려가면 top:0 자리에 고정 */
+  top: 20px;
+  background: #2ecc71;
+}
+
+.spacer {
+  height: 400px;
+  background: #e9ecef;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #adb5bd;
+  border-radius: 8px;
+}
+
+.parent {
+  position: relative;
+  background: #ecf0f1;
+  border: 2px dashed #95a5a6;
+  padding: 40px;
+}
+.child {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  background-color: #3498db;
+}
