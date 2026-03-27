@@ -130,6 +130,7 @@ body {
 .device-name {
   font-weight: 500;
   color: #0f172a;
+  font-weight: 600;
 }
 
 /* 상태 뱃지 (가상요소 없이 외부 div와 내부 dot div 사용) */
@@ -211,4 +212,8 @@ body {
 .btn-edit:hover {
   border-color: #94a3b8;
   background-color: #f1f5f9;
+}
+
+tr th {
+  text-align: left;
 }
