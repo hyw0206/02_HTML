@@ -117,6 +117,7 @@ body {
 
 .device-name {
   color: #0f172a;
+  font-weight: 600;
 }
 
 .status-badge {
@@ -212,4 +213,8 @@ body {
 .btn-edit:hover {
   border-color: #94a3b8;
   background-color: #f1f5f9;
+}
+
+tr th {
+  text-align: left;
 }
